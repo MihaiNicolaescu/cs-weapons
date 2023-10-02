@@ -1,0 +1,52 @@
+.tile{
+    background-color: #cef542;
+    width: 220px;
+    height: 300px;
+    border-radius: 10%;
+    box-shadow: 5px 5px 0.2em rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    transition: transform 0.2s ease-in-out;
+    cursor: crosshair;
+}
+
+.tile:hover{
+    transform: scale(1.1)
+}
+
+.tile-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-bottom: 0;
+}
+
+.tile-team{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+
+.tile-weapon-info{
+    text-align:center;
+    font-size: 19px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.tile img{
+    width: 150px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.App{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body{
+    background-color: #aeaeae;
+}
